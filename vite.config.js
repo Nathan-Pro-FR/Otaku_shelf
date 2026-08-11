@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 export default defineConfig({
   // Change 'otaku-shelf' to your GitHub repo name if deploying to GitHub Pages
   // base: '/otaku-shelf/',
-  base: '/',
+  base: '/Otaku_shelf/',
   plugins: [
     vue(),
     VitePWA({
