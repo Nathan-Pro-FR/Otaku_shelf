@@ -45,15 +45,15 @@ src/
 ├── App.vue                 # Shell + bottom nav + toast global
 ├── style.css               # Design system complet (tokens CSS)
 ├── stores/
-│   └── library.js          # État réactif + LocalStorage
+│    └── library.js          # État réactif + LocalStorage
 ├── composables/
-│   ├── useJikan.js         # Wrapper Jikan API v4
-│   └── useGoogleBooks.js   # Lookup ISBN → Google Books
+│    ├── useJikan.js         # Wrapper Jikan API v4
+│    └── useGoogleBooks.js   # Lookup ISBN → Google Books
 └── views/
-    ├── Dashboard.vue        # Liste + stats + filtres
-    ├── Search.vue           # Recherche Jikan + modal d'ajout
-    ├── Scanner.vue          # Caméra ISBN + fallback manuel
-    └── SeriesDetail.vue     # Détail + grille tomes + édition
+     ├── Dashboard.vue        # Liste + stats + filtres
+     ├── Search.vue           # Recherche Jikan + modal d'ajout
+     ├── Scanner.vue          # Caméra ISBN + fallback manuel
+     └── SeriesDetail.vue     # Détail + grille tomes + édition
 ```
 
 ## Fonctionnalités
