@@ -30,7 +30,7 @@ jobs:
         env:
           # Set base to /REPO_NAME/ when deploying to GitHub Pages sub-path
           # Uncomment and edit the line below if needed:
-          # VITE_BASE_URL: /otaku-shelf/
+          VITE_BASE_URL: /Otaku_shelf/
 
       - uses: actions/upload-pages-artifact@v3
         with:
